@@ -1,0 +1,40 @@
+
+        body {/*Fonte da página*/
+            font-family: Arial, Helvetica, sans-serif
+        }
+        
+        header { /*Definir o estilo do cabeçalho da pagina*/
+            background-color: #1f9cd6;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #000;
+        }
+        nav { /*Texto alinhado no centro, cor de fundo, preenchimento interno*/
+            text-align: center;
+            background-color: #444;
+            padding: 10px;
+            
+        }
+        nav a { /*Define a cor do link, remove a decoração do texto, margem horizontal de 20px*/
+            color: #f0e1e1;
+            text-decoration: none;
+            margin: 20px;
+            
+        }
+        nav a:hover { /*Define um sublinhado ao passar o mouse por cima*/
+            text-decoration: underline;
+        }
+        section {
+            padding: 70px;
+            border: 1px solid #000;
+            
+        }
+        footer {  /*Cor do fundo, cor da letra, texto alinhado ao cendro, espaço de prenchimento interno*/
+            background-color: #1f9cd6;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #000;
+        }
+    
